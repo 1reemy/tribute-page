@@ -1,0 +1,61 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="form_style.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Wacky News Survey Form
+      </h1>
+      <p id="description">Information submitted here will be used to determine the content you would most like to see.</p>
+    </header>
+
+    <form id="survey-form">
+      <p><label id="name-label" for="name">Name:</label>
+      <p><input id="name" type="text" placeholder="Enter your name" required></p>
+      </p>
+      <p><label id="email-label" for="email">E-mail:</label>
+      <p><input id="email" type="email" placeholder="Enter your e-mail address" required></p>
+      </p>
+      <p><label id="number-label" for="number">Age:</label>
+      <p><input id="number"
+                type="number"
+                min="18"
+                max="100"
+                placeholder="Age"
+                required></p>
+      </p>
+<p>
+  <label for="dropdown">Read Daily?</label>
+  <select id="dropdown">
+    <option value=""></option>
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+  </select>
+</p>
+<p>
+  <label><input type="radio" name="day-night" value="day">Daytime</label>
+  <label><input type="radio" name="day-night" value="night">Night-time</label>
+</p>
+<p>
+<h4>Preferred Formats</h4>
+<label><input type="checkbox" value="e-zine">E-zine</label>
+<label><input type="checkbox" value="Newspaper">Newspaper</label>
+<label><input type="checkbox" value="mobile">Mobile App</label>
+</p>
+<p>
+  <label><h4>What can we do to improve your viewership?</h4></label>
+<p>
+  <textarea rows="10" cols="80">
+  </textarea>
+</p>
+</p>
+<p>
+  <button id="submit" type="submit"><strong>Submit</strong></button>
+</p>
+    </form>
+  </body>
+</html>
