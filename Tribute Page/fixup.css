@@ -1,0 +1,45 @@
+#image{
+width:500px;
+
+
+}
+#main{
+  text-align: center;
+}
+#title{
+font-family:Abril Fatface;
+padding-top: 50px;
+font-size: 100px;
+}
+h1{
+background-color: cc0000;
+}
+h2{
+  margin-top: -70px;
+  background-color: cc0000;
+  padding-bottom: 20px;
+}
+#img-div{
+  padding:50px;
+  background-color: 000000;
+  margin-top: -20px;
+}
+ul{
+  text-align: justify;
+  font-size: 20px;
+  padding:10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+li{
+  padding:10px;
+}
+#content{
+  background-color: 00cc00;
+  margin-top: -20px;
+  padding-top: 20px;
+}
+#img-caption{
+  padding-top: 10px;
+  color: ffffff;
+}
